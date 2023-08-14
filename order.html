@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FEANE</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>FEANE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Asosiy</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="book.html">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="order-form">
+        <h2>Buyurtma bering </h2>
+        <form id="order-form">
+            <label for="food-item">Taomni tanlang:</label>
+            <select id="food-item" name="food-item">
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+                <option value="pasta">Pasta</option>
+            </select>
+            
+            <label for="food-item">Miqdorni kiriting :</label>
+            <select id="food-item" name="food-item">
+                <option value="burger">1</option>
+                <option value="pizza">2</option>
+                <option value="pasta">3</option>
+                <option value="pasta">4</option>
+                <option value="pasta">5</option>
+                <option value="pasta">6</option>
+            </select>
+            <button onclick="sayHi()" type="button" id="submit-order">Buyurtma berish</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Food Restaurant. Bizning mahsulotlar sertifikatlangan .</p>
+    </footer>
+    
+    <script src="order.js"></script>
+</body>
+</html>
